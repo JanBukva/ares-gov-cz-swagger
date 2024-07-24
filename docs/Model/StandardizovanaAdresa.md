@@ -3,7 +3,6 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**typ_stavebniho_objektu** | **string** | Typ stavebního objektu - kód (Číselník kod:TypStavebnihoObjektu, zdroj:ruian) | [optional] 
 **cislo_domovni** | **int** | Číslo domovní | [optional] 
 **cislo_orientacni** | **int** | Číslo orientační - číselná část | [optional] 
 **cislo_orientacni_pismeno** | **string** | Číslo orientační - písmenná část | [optional] 
@@ -27,6 +26,8 @@ Name | Type | Description | Notes
 **nazev_ulice** | **string** | Název ulice, veřejného prostranství | [optional] 
 **psc** | **int** | Poštovní směrovací číslo adresní pošty | [optional] 
 **textova_adresa** | **string** | Textová podoba adresy | [optional] 
+**typ_stavebniho_objektu** | **string** | Typ stavebního objektu - kód (Číselník kod:TypStavebnihoObjektu, zdroj:ruian) pozn. atribut bude v příštích verzích nahrazen atributem typCisloDomovni (sjednocení pojmosloví IS). Z důvodů kompatibility api bude atribut podporováno/duplikován do verze 1.2.0 | [optional] 
+**typ_cislo_domovni** | **int** | Typ čísla domu - kód (ciselnikKod: TypCislaDomovniho) | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

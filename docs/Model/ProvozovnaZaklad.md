@@ -3,6 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**icp** | **int** | identifikační číslo provozovny | [optional] 
 **sidlo_provozovny** | [**\Swagger\Client\Model\Adresa**](Adresa.md) |  | [optional] 
 **umisteni_provozovny** | **string** | Umístění provozovny | [optional] 
 **platnost_od** | [**\DateTime**](\DateTime.md) | Platnost provozovny od data | [optional] 

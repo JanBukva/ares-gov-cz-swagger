@@ -29,9 +29,9 @@ Name | Type | Description | Notes
 **psc** | **int** | Poštovní směrovací číslo adresní pošty | [optional] 
 **textova_adresa** | **string** | Nestrukturovaná adresa (formátovaná adresa) | [optional] 
 **cislo_do_adresy** | **string** | Nestrukturované číslo/a použíté v adrese | [optional] 
-**typ_cislo_domovni** | **string** | Typ čísla domu (ciselnikKod: TypCislaDomovniho) | [optional] 
 **standardizace_adresy** | **bool** | Stav standardizace adresy dle RÚIAN | [optional] 
 **psc_txt** | **string** | Psč zahraničních nebo nestandardně definovaných čísel | [optional] 
+**typ_cislo_domovni** | **int** | Typ čísla domu - kód (ciselnikKod: TypCislaDomovniho) | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
